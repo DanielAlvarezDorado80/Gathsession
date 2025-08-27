@@ -104,7 +104,9 @@ a { text-decoration: none; }
 .nav-toggle.active span:nth-child(3) {
   transform: rotate(-45deg) translate(6px, -6px);
 }
-
+.main-nav.active {
+  right: 0;
+}
 /* Hero */
 .hero-section {
   max-width: 1200px;
